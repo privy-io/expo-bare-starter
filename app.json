@@ -3,8 +3,7 @@
     "name": "freestanding-bare",
     "slug": "freestanding-bare",
     "version": "1.0.0",
-    "assetBundlePatterns": [
-      "**/*"
-    ]
+    "assetBundlePatterns": ["**/*"],
+    "jsEngine": "hermes"
   }
 }
