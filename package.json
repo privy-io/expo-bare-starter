@@ -1,5 +1,5 @@
 {
-  "name": "freestanding-bare",
+  "name": "@privy-io/expo-bare-starter",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {

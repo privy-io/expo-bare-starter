@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "freestanding-bare",
-    "slug": "freestanding-bare",
+    "name": "@privy-io/expo-bare-starter",
+    "slug": "privy-expo-bare-starter",
     "version": "1.0.0",
     "assetBundlePatterns": ["**/*"],
     "jsEngine": "hermes"
