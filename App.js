@@ -11,6 +11,8 @@ import {
 } from "@privy-io/expo";
 import { useState } from "react";
 
+const appId = "<your-app-ID>";
+
 function Content() {
   const [email] = useState("");
   const [otp, setOtp] = useState("");
@@ -121,8 +123,19 @@ function Content() {
 }
 
 export default function App() {
+  if (appId === "<your-app-ID>") {
+    return (
+      <View style={[styles.container, { gap: 20 }]}>
+        <Text style={{ fontSize: 15, fontStyle: "italic", color: "blue" }}>
+          Fill in your appId prop on{" "}
+        </Text>
+        <Text style={{ fontSize: 20 }}>{"<PrivyProvider />"}</Text>
+      </View>
+    );
+  }
+
   return (
-    <PrivyProvider appId="<your-app-ID>">
+    <PrivyProvider appId={appId}>
       <View style={styles.container}>
         <Content />
       </View>

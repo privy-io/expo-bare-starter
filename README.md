@@ -28,6 +28,9 @@ This demonstrates a minimal working installation of the privy sdk in an
 ## Run the app
 
 ```sh
+# expo go
+npm start
+
 # ios
 npm run ios
 
