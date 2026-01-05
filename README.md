@@ -1,5 +1,7 @@
 # Privy Expo Starter (bare)
 
+> **This repository is archived.** For up-to-date examples, please visit [github.com/privy-io/examples](https://github.com/privy-io/examples).
+
 This demonstrates a minimal working installation of the privy sdk in an [bare](https://docs.expo.dev/bare/overview/) expo app.
 We recommend reading the [documentation](https://docs.privy.io/basics/react-native/setup) for a more detailed guide.
 
